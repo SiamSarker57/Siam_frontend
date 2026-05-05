@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import { apiPostJson, apiGetJson } from '../api';
+import { apiPostJson } from '../api';
 
 export default function Login() {
   const [email, setEmail] = useState('');

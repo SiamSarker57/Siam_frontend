@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 export default function Profile() {
   const name = localStorage.getItem('auth_name') || '';
